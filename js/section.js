@@ -29,7 +29,7 @@ const workCategory = document.querySelectorAll("#work-experience .categories")[0
 
 // MAIN - Anadir secciones
 export async function addSections(language) {
-    const response = await fetch(`../locales/${language}.json`);
+    const response = await fetch(`locales/${language}.json`);
 
     if (!response.ok) {
         throw new Error(`No se ha podido cargar el archivo: ${language}.json`);    
