@@ -1,0 +1,220 @@
+/*** ACCESIBILIDAD ***/
+
+@media (prefers-reduced-motion: reduce) {
+    body {
+        transition: none;
+    }
+}
+
+@media (prefers-contrast: more) {
+    :root {
+        --color-accent: #f0f0f0;
+        --color-accent-hover: #f0f0f0;
+    }
+
+    [data-theme="light"] {
+        --color-accent: #111d3b;
+        --color-accent-hover: #111d3b;
+    }
+}
+
+/*** RESPONSIVE ***/
+
+/** <1400px **/
+
+/* SECCIONES HABILIDADES */
+
+@media screen and (max-width: 1400px) {
+    #skills-wrapper {
+        flex-direction: column;
+    }
+
+    #skills-wrapper > div {
+        width: 80%;
+    }
+
+    #skills-wrapper div {
+        margin: 4% auto;
+    }
+
+    .project-tech img {
+        width: 24px;
+        height: 24px;
+    }
+}
+
+/* SECCIONES DE FORMACION Y EXPERIENCIA LABORAL */ 
+
+@media screen and (max-width: 1400px) {
+    .categories {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .exp-icon {
+        display: none;
+    }
+
+    .experience article div:first-of-type {
+        display: none;
+    }
+
+    .experience article div:last-of-type {
+        width: 100%;
+    }
+}
+
+/** <1000px **/
+
+/* PROPIEDADES GENERALES */
+
+@media screen and (max-width: 1100px) {
+    body {
+        width: 100%;
+    }
+
+    .wrapper > div, .wrapper section {
+        width: 100%;
+    }
+
+    .wrapper section {
+        border: none;
+    }
+
+    .section-title {
+        text-align: center;
+        width: fit-content;
+        margin: auto;
+    }
+
+    button {
+        padding: 2%;
+    }
+
+    .btt-button, .btt-button:hover {
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        margin: 2% auto;
+        padding: 2%;
+        font-size: var(--font-m);
+    }
+
+    .btt-button span {
+        margin: 0 auto;
+    }
+}
+
+/* CABECERA Y PIE DE PAGINA */
+
+@media screen and (max-width: 1100px) {
+    #main-header, #main-footer {
+        width: 90%;
+    }
+
+    #main-footer {
+        margin: 0 auto;
+    }
+
+    #main-header h2 {
+        display: none;
+    }
+
+    #dropdown {
+        width: 100%;
+        border: none;
+    }
+}
+
+/* SECCION HERO */
+
+@media screen and (max-width: 1100px) {
+    #hero-section {
+        display: flex;
+        flex-direction: column;
+        /* de momento */
+        margin-bottom: 50%;
+    }
+
+    #hero-section > div:first-of-type {
+        width: 80%;
+    }
+
+    #hero-section > div:last-of-type div:last-of-type {
+        background-color: transparent;
+        border-radius: none;
+        box-shadow: none;
+    }
+
+    #hero-section-content {
+        text-align: center;
+        width: 100%;
+    }
+
+    #hero-section > div:first-of-type a, #hero-section > div:first-of-type a:hover {
+        transform: translateY(100px);
+    }
+
+    #hero-section > div:first-of-type a:hover {
+        transform: translateY(100px) scale(1.1);
+    }
+}
+
+/* SECCION HABILIDADES */
+
+@media screen and (max-width: 1100px) {
+    #skills-wrapper {
+        flex-direction: column;
+    }
+
+    #skills-wrapper > div {
+        width: 80%;
+    }
+
+    #skills-wrapper div {
+        margin: 4% auto;
+    }
+
+    .project-tech img {
+        width: 24px;
+        height: 24px;
+    }
+}
+
+/** SECCION DE PROYECTOS **/
+
+@media screen and (max-width: 1100px) {
+    #projects .project-card {
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+    }
+
+    .project-card article {
+        margin: var(--separation) auto;
+        width: 80%;
+    }
+}
+
+/** SECCION FORMACION Y EXPERIENCIA LABORAL **/ 
+
+@media screen and (max-width: 1100px) {
+    .categories {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .exp-icon {
+        display: none;
+    }
+
+    .experience article, .experience article:nth-child(2n+1) {
+        text-align: center;
+    }
+
+    .experience article div:last-of-type {
+        width: 100%;
+    }
+}

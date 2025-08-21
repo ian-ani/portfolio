@@ -1,0 +1,336 @@
+{
+    "heroSection": {
+        "name": "Iris Auñón Navarro",
+        "title": "Systems technician and developer",
+        "text": "Junior systems technician with a fullstack development background, artificial intelligence and Big Data analytics. Currently seeking opportunities to apply my knowledge and adapt to different roles. Eager to keep learning and growing professionally.",
+        "resume": "Download resume",
+        "social": {
+            "linkedin": "https://www.linkedin.com/in/irisaunav",
+            "github": "https://github.com/ian-ani"
+        }
+    },
+    "skills": {
+        "title": "Skills",
+        "category": 
+            ["Frontend", 
+            "Backend", 
+            "Systems and tools"]
+    },
+    "futureObjectives": {
+        "title": "Future goals"
+    },
+    "projects": {
+        "title": "Projects",
+        "category": [
+            "All",
+            "Web",
+            "GUI",
+            "CLI",
+            "Data"
+        ],
+        "cards": [
+            [
+                {
+                    "image": "../img/projects/audit.png",
+                    "title": "Web audit bot",
+                    "category": ["All", "Web", "CLI"],
+                    "description": "Basic website audit automation.",
+                    "tech": [
+                        {"title": "Python", 
+                        "image": "../img/tech/backend/Python.svg"},
+                        {"title": "Scrapy", 
+                        "image": "../img/tech/backend/scrapy.svg"}
+                    ],
+                    "source": "https://github.com/ian-ani/auditorias"
+                },
+                {
+                    "image": "../img/projects/bsky.png",
+                    "title": "Bluesky",
+                    "category": ["All", "CLI"],
+                    "description": "CLI program for basic <b>Bluesky</b> interaction.",
+                    "tech": [
+                        {"title": "Python", 
+                        "image": "../img/tech/backend/Python.svg"},
+                        {"title": "Docker",
+                        "image": "../img/tech/sys/Docker.svg"}
+                    ],
+                    "source": "https://github.com/ian-ani/bluesky_sh"
+                }
+            ],
+            [
+                {
+                    "image": "../img/projects/mediabulk.png",
+                    "title": "Video converter and audio extractor",
+                    "category": ["All", "CLI"],
+                    "description": "Easier video conversion and audio extraction through <b>ffmpeg</b>.",
+                    "tech": [
+                        {"title": "PowerShell", 
+                        "image": "../img/tech/backend/Powershell.svg"}
+                    ],
+                    "source": "https://github.com/ian-ani/MediaBulk"
+                },
+                {
+                    "image": "../img/projects/fishtank.png",
+                    "title": "Aquarium on Scratch",
+                    "category": ["All"],
+                    "description": "Aquarium made on <b>Scratch</b> for CS50.",
+                    "tech": [
+                        {"title": "Scratch", 
+                        "image": "../img/tech/sys/scratch.svg"}
+                    ],
+                    "source": "https://scratch.mit.edu/projects/1166860836"
+                }
+            ],
+            [
+                {
+                    "image": "../img/projects/diff_files.png",
+                    "title": "Differences between two files",
+                    "category": ["All", "GUI"],
+                    "description": "GUI program built with <b>Tkinter</b> to check differences between two plain-text files.",
+                    "tech": [
+                        {"title": "Python", 
+                        "image": "../img/tech/backend/Python.svg"}
+                    ],
+                    "source": "https://github.com/ian-ani/diff_files"
+                },
+                {
+                    "image": "../img/projects/fh4.png",
+                    "title": "Seasons for Forza Horizon 4",
+                    "category": ["All", "Web"],
+                    "description": "Web season tracker for Forza Horizon 4.",
+                    "tech": [
+                        {"title": "HTML", 
+                        "image": "../img/tech/frontend/HTML5.svg"},
+                        {"title": "CSS",
+                        "image": "../img/tech/frontend/CSS3.svg"},
+                        {"title": "JavaScript",
+                        "image": "../img/tech/frontend/JavaScript.svg"}
+                    ],
+                    "source": "https://ian-ani.github.io/fh4-season-tracker"
+                }
+            ],
+            [
+                {
+                    "image": "../img/projects/ts2_en.png",
+                    "title": "Neighborhood cloner for The Sims 2",
+                    "category": ["All", "GUI"],
+                    "description": "GUI program built with <b>Tkinter</b> to clone any neighborhood in The Sims 2.",
+                    "tech": [
+                        {"title": "Python", 
+                        "image": "../img/tech/backend/Python.svg"},
+                        {"title": "HTML", 
+                        "image": "../img/tech/frontend/HTML5.svg"}
+                    ],
+                    "source": "https://github.com/ian-ani/ts2_neighborhood_cloner"
+                },
+                {
+                    "image": "../img/projects/sample_moe.png",
+                    "title": "Sample size and margin of error",
+                    "category": ["All", "GUI", "Data"],
+                    "description": "Sample size and margin of error calculator for data analysis, GUI built using <b>Tkinter</b>.",
+                    "tech": [
+                        {"title": "Python", 
+                        "image": "../img/tech/backend/Python.svg"}
+                    ],
+                    "source": "https://github.com/ian-ani/sample_size_moe"
+                }
+            ],
+            [
+                {
+                    "image": "../img/projects/room.png",
+                    "title": "Website",
+                    "category": ["All", "Web"],
+                    "description": "Website with tic-tac-toe, calculator, number system converter and other pages.",
+                    "tech": [
+                        {"title": "HTML", 
+                        "image": "../img/tech/frontend/HTML5.svg"},
+                        {"title": "CSS",
+                        "image": "../img/tech/frontend/CSS3.svg"},
+                        {"title": "JavaScript",
+                        "image": "../img/tech/frontend/JavaScript.svg"}
+                    ],
+                    "source": "https://github.com/ian-ani/room"
+                },
+                {
+                    "image": "../img/projects/no-image.png",
+                    "title": "Fire risk prediction",
+                    "category": ["All", "CLI", "Data"],
+                    "description": "Final project for the AI and Big Data course. It predicts risk of fire in a specific locality using convolutional neural networks.",
+                    "tech": [
+                        {"title": "Python", 
+                        "image": "../img/tech/backend/Python.svg"},
+                        {"title": "Pillow", 
+                        "image": "../img/tech/backend/pillow.svg"},
+                        {"title": "Tensorflow", 
+                        "image": "../img/tech/backend/TensorFlow.svg"},
+                        {"title": "Pandas", 
+                        "image": "../img/tech/backend/Pandas.svg"}
+                    ],
+                    "source": ""
+                }
+            ],
+            [
+                {
+                    "image": "../img/projects/fuel-predict.png",
+                    "title": "Fuel price prediction in Spain",
+                    "category": ["All", "Web", "Data"],
+                    "description": "Based on another project for the AI and Big Data course, but in this web version it uses <b>FastAPI</b>. It predicts fuel prices for every Spanish province based on monthly data.",
+                    "tech": [
+                        {"title": "Python", 
+                        "image": "../img/tech/backend/Python.svg"},
+                        {"title": "FastAPI",
+                        "image": "../img/tech/backend/FastAPI.svg"},
+                        {"title": "HTML", 
+                        "image": "../img/tech/frontend/HTML5.svg"},
+                        {"title": "CSS",
+                        "image": "../img/tech/frontend/CSS3.svg"},
+                        {"title": "JavaScript",
+                        "image": "../img/tech/frontend/JavaScript.svg"},
+                        {"title": "Docker",
+                        "image": "../img/tech/sys/Docker.svg"}
+                    ],
+                    "source": "https://github.com/ian-ani/fuel-predict"
+                },
+                {
+                    "image": "../img/projects/no-image.png",
+                    "title": "Automated job finder",
+                    "category": ["All"],
+                    "description": "RPA project developed for the AI and Big Data course, featuring a robot designed to perform the following tasks: login, job searching based on specific criteria and automatic job application. Developed with <b>BluePrism</b>.",
+                    "tech": [],
+                    "source": ""
+                }
+            ],
+            [
+                {
+                    "image": "../img/projects/no-image.png",
+                    "title": "Stadium ticket and event management",
+                    "category": ["All"],
+                    "description": "Blockchain project for the AI and Big Data course. Visualizes stadium zones and manages ticket sales and zone bookings, developed with <b>Solidity</b> (Ethereum).",
+                    "tech": [
+                        {"title": "Solidity", 
+                        "image": "../img/tech/backend/Solidity.svg"}
+                    ],
+                    "source": ""
+                }
+            ]
+        ]
+    },
+    "futureProjects": {
+        "title": "Future projects",
+        "list": [
+            "Upgrade and update of GitHub repositories",
+            "Development of graphical user interfaces with Python, C# or Lazarus (Pascal) for programs and tools such as image filtering and capture",
+            "Backend frameworks: hands-on practice using Flask, Django and Laravel",
+            "Implementation of algorithms and models, such as linear regression, for a better understanding of how they work"
+        ]
+    },
+    "education": {
+        "title": "Education",
+        "category": [
+            "All",
+            "Present",
+            "Past",
+            "Development",
+            "Systems",
+            "Data"
+        ],
+        "cards": [
+            {
+                "title": "Cross-platform software development (<i>unofficial translation</i>)",
+                "date": "2025 - actualmente",
+                "category": ["All", "Present", "Development"],
+                "description": "[...]",
+                "image": "../img/exp/development.png"
+            },
+            {
+                "title": "CS50 - Introduction to computer science",
+                "date": "2025 - actualmente",
+                "category": ["All", "Present", "Development"],
+                "description": "Algorithms, data structures and memory management with <b>C</b>. <b>Python</b> and <b>SQL</b>. Development of web pages with <b>HTML</b>/<b>CSS</b>, <b>JavaScript</b> and <b>Flask</b>.",
+                "image": "../img/exp/development.png"
+            },
+            {
+                "title": "(IFCP0110) Website creation and publication (<i>unofficial translation</i>)",
+                "date": "2025",
+                "category": ["All", "Past", "Development"],
+                "description": "Development of web pages with <b>HTML</b>, <b>CSS</b> and <b>JavaScript</b>. Using libraries such as <b>Bootstrap</b> and <b>jQuery</b>, and platforms like <b>WordPress</b>.",
+                "image": "../img/exp/development.png"
+            },
+            {
+                "title": "Data analytics Google Specialization",
+                "date": "2024",
+                "category": ["All", "Past", "Data"],
+                "description": "Data cleaning and data analysis with <b>R</b>, data visualization with <b>Tableau</b>, <b>SQL</b> and spreadsheets.",
+                "image": "../img/exp/data.png"
+            },
+            {
+                "title": "Google IT automation with Python Specialization",
+                "date": "2024",
+                "category": ["All", "Past", "Development"],
+                "description": "Automation with <b>Python</b> and <b>Bash</b>, version control with <b>Git</b> and <b>GitHub</b>, regular expressions and unit tests.",
+                "image": "../img/exp/development.png"
+            },
+            {
+                "title": "Artificial intelligence and big data specialization (<i>unofficial translation</i>)",
+                "date": "2023-2024",
+                "category": ["All", "Past", "Data"],
+                "description": "Big Data with <b>Docker</b>, <b>Power BI</b>, <b>AWS/Azure</b>, <b>Hadoop</b>, <b>SQL</b>, <b>Nifi</b>, <b>Pentaho</b>, <b>MongoDB</b> and <b>Databricks</b>. Artificial intelligence with <b>Python</b> and using libraries (<b>scikit-learn</b>, <b>OpenCV</b>, <b>Tkinter</b>, among others). Machine learning, neural networks and natural language processing. A little bit of <b>C#</b>. RPA with <b>BluePrism</b> and Blockchain with <b>Solidity</b> (Ethereum).",
+                "image": "../img/exp/data.png"
+            },
+            {
+                "title": "Administration of networked computer systems (<i>unofficial translation</i>)",
+                "date": "2015-2018",
+                "category": ["All", "Past", "Systems"],
+                "description": "Builds on the previous course by adding operating system administration (<b>Windows</b>, <b>Linux</b>) and network services, cybersecurity and databases. Web development with <b>HTML</b>/<b>CSS</b>, <b>WordPress</b> and <b>Joomla!</b>",                                
+                "image": "../img/exp/systems.png"
+            },
+            {
+                "title": "Microcomputer systems and networks (<i>unofficial translation</i>)",
+                "date": "2013-2015",
+                "category": ["All", "Past", "Systems"],
+                "description": "Installation, maintenance and software configuration, hardware and networks. Use of office software (such as Word, Excel). Web development with <b>HTML</b> and <b>CSS</b>.",
+                "image": "../img/exp/systems.png"
+            }
+        ]
+    },
+    "workExperience": {
+        "title": "Work experience",
+        "category": [
+            "All",
+            "Present",
+            "Past",
+            "Development",
+            "Systems"
+        ],
+        "cards": [
+            {
+                "title": "Private tutoring and PC repair",
+                "date": "2020-2023",
+                "category": ["All", "Past", "Systems"],
+                "description": "Private tutoring in using phones and computers. Repair and setup of computers for individuals.",
+                "image": "../img/exp/systems.png"
+            },
+            {
+                "title": "Library assistant",
+                "date": "2018",
+                "category": ["All", "Past"],
+                "description": "Assisting users at the front desk. Restocking and labeling of library materials.",
+                "image": "../img/exp/misc.png"
+            },
+            {
+                "title": "WordPress developer",
+                "date": "2016",
+                "category": ["All", "Past", "Development"],
+                "description": "Development and management of a website built with <b>WordPress</b>.",
+                "image": "../img/exp/development.png"
+            },
+            {
+                "title": "Computer technician",
+                "date": "2015",
+                "category": ["All", "Past", "Systems"],
+                "description": "Setup and maintenance of computers. Installation, maintenance and configuration of software and operating systems. Malware detection and removal.",
+                "image": "../img/exp/systems.png"
+            }
+        ]
+    }
+}
