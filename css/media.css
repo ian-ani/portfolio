@@ -171,11 +171,10 @@
     }
 }
 
-
 @media screen and (max-width: 1000px) and (orientation: landscape) {
     #dropdown div:last-of-type {
         position: absolute;
-        top: 10%;
+        top: 5%;
         right: 50%;
         left: 50%;
         display: flex;
@@ -187,7 +186,7 @@
     }
 
     #dropdown ul li a {
-        font-size: var(--font-l);
+        font-size: var(--font-m);
     }
 }
 
