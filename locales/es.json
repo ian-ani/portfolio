@@ -304,6 +304,13 @@
         ],
         "cards": [
             {
+                "title": "Desarrolladora WordPress",
+                "date": "2025",
+                "category": ["Todas", "Pasada", "Desarrollo"],
+                "description": "Diseño, edición y mantenimiento de sitios web en <b>WordPress</b> utilizando el constructor <b>Divi</b> y otros plugins. Auditorías web para asegurar la correcta integridad y funcionalidad de los sitios web.",
+                "image": "img/exp/development.png"
+            },
+            {
                 "title": "Clases particulares y reparación de equipos",
                 "date": "2020-2023",
                 "category": ["Todas", "Pasada", "Sistemas"],
