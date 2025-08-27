@@ -89,11 +89,12 @@
     }
 
     .exp-icon {
-        display: none;
+        display: flex;
+        height: 100%;
     }
 
     .experience article div:first-of-type {
-        display: none;
+        display: flex;
     }
 
     .experience article div:last-of-type {
@@ -272,6 +273,10 @@
     }
 
     .exp-icon {
+        display: none;
+    }
+
+    .experience article div:first-of-type {
         display: none;
     }
 

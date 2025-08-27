@@ -305,8 +305,9 @@ section {
 
 #hero-section {
     display: flex;
-    height: 80vh;
+    justify-content: center;
     align-items: center;
+    height: 80vh;
     border: none;
 }
 
@@ -531,6 +532,7 @@ section {
     width: 28%;
     display: flex;
     justify-content: center;
+    margin: var(--separation) 0;
 }
 
 .experience article div:first-of-type img {
@@ -540,11 +542,6 @@ section {
 
 .experience article div:last-of-type {
     width: 60%;
-}
-
-.exp-icon {
-    width: 150px;
-    height: 150px;
 }
 
 /*** BOTON VOLVER ARRIBA ***/
