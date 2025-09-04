@@ -212,6 +212,19 @@
                     ],
                     "source": ""
                 }
+            ],
+            [
+                {
+                    "image": "img/projects/swalert.png",
+                    "title": "Time alerts for Stardew Valley",
+                    "category": ["All"],
+                    "description": "A Stardew Valley mod with SMAPI, displays in-game alerts at night.",
+                    "tech": [
+                        {"title": "C#", 
+                        "image": "img/tech/backend/Csharp.svg"}
+                    ],
+                    "source": "https://github.com/ian-ani/ClockAlert"
+                }
             ]
         ]
     },
@@ -237,14 +250,14 @@
         "cards": [
             {
                 "title": "Cross-platform software development (<i>unofficial translation</i>)",
-                "date": "2025 - actualmente",
+                "date": "2025 - present",
                 "category": ["All", "Present", "Development"],
                 "description": "[...]",
                 "image": "img/exp/development.png"
             },
             {
                 "title": "CS50 - Introduction to computer science",
-                "date": "2025 - actualmente",
+                "date": "2025 - present",
                 "category": ["All", "Present", "Development"],
                 "description": "Algorithms, data structures and memory management with <b>C</b>. <b>Python</b> and <b>SQL</b>. Development of web pages with <b>HTML</b>/<b>CSS</b>, <b>JavaScript</b> and <b>Flask</b>.",
                 "image": "img/exp/development.png"

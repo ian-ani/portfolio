@@ -212,6 +212,19 @@
                     ],
                     "source": ""
                 }
+            ],
+            [
+                {
+                    "image": "img/projects/swalert.png",
+                    "title": "Alertas de tiempo en Stardew Valley",
+                    "category": ["Todas"],
+                    "description": "Mod para Stardew Valley que hace uso de SMAPI, avisa al jugador a unas horas específicas de la noche.",
+                    "tech": [
+                        {"title": "C#", 
+                        "image": "img/tech/backend/Csharp.svg"}
+                    ],
+                    "source": "https://github.com/ian-ani/ClockAlert"
+                }
             ]
         ]
     },

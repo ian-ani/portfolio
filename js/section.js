@@ -39,7 +39,7 @@ export async function addSections(language) {
 
     addHeroSection(result);
     addSkillSection(result);
-    addProjectSection(result);
+    addProjectSection(result, language);
     addExpSection(result, 3, "education", educationCategory, educationSection);
     addExpSection(result, 4, "workExperience", workCategory, workSection);
     showCards("projects");
@@ -67,17 +67,18 @@ function renderContent(key, parent) {
 }
 
 // Footer
-function renderFooter(key, parent) {
+function renderFooter(key, parent, language) {
     const footer = createContainer("footer");
     const divProjectTech = createContainer("div", "project-tech");
     const divProjectSource = createContainer("div", "project-source");
+    const buttonText = {"en":"View", "es":"Ver"};
 
     key.tech.forEach(element => {
         divProjectTech.innerHTML += `<img src="${element.image}" alt="${element.title}" title="${element.title}">`;
     });
 
     if (key.source) {
-        divProjectSource.innerHTML = `<a href="${key.source}" target="_blank" rel="noopener noreferrer">Ver</a>`;
+        divProjectSource.innerHTML = `<a href="${key.source}" target="_blank" rel="noopener noreferrer">${buttonText[language]}</a>`;
     }
 
     parent.appendChild(footer);
@@ -112,7 +113,7 @@ function addSkillSection(result) {
 }
 
 // Seccion de proyectos
-function addProjectSection(result) {
+function addProjectSection(result, language) {
     // Titulo
     sectionTitles[2].textContent = result.projects.title.toUpperCase();
 
@@ -136,7 +137,7 @@ function addProjectSection(result) {
             // Content
             renderContent(projects, article);
             // Footer
-            renderFooter(projects, article);
+            renderFooter(projects, article, language);
 
             divProjectCard.appendChild(article);
         }
