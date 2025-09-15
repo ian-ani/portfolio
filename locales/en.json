@@ -249,6 +249,13 @@
         ],
         "cards": [
             {
+                "title": "(IFCD052PO) Programming in Java (<i>unofficial translation</i>)",
+                "date": "2025 - present",
+                "category": ["All", "Present", "Development"],
+                "description": "Web programming with Java, Angular and Spring.",
+                "image": "img/exp/development.png"
+            },
+            {
                 "title": "Cross-platform software development (<i>unofficial translation</i>)",
                 "date": "2025 - present",
                 "category": ["All", "Present", "Development"],
