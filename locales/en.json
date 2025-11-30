@@ -225,6 +225,22 @@
                     ],
                     "source": "https://github.com/ian-ani/ClockAlert"
                 }
+            ],
+            [
+                {
+                    "image": "img/projects/zampa.png",
+                    "title": "Zampa!",
+                    "category": ["All", "Web"],
+                    "description": "Web application for the final project for the Programming in Java course. It allows users to save and display cooking recipes.",
+                    "tech": [
+                        {"title": "Spring",
+                        "image": "img/tech/backend/Spring.svg"},
+                        {"title": "Java", 
+                        "image": "img/tech/backend/Java.svg"}
+
+                    ],
+                    "source": "https://github.com/ian-ani/Zampa"
+                }
             ]
         ]
     },
@@ -250,9 +266,9 @@
         "cards": [
             {
                 "title": "(IFCD052PO) Programming in Java (<i>unofficial translation</i>)",
-                "date": "2025 - present",
-                "category": ["All", "Present", "Development"],
-                "description": "Web programming with <b>Java</b>, <b>Angular</b> and <b>Spring</b>.",
+                "date": "2025",
+                "category": ["All", "Development"],
+                "description": "Web programming with <b>Java</b> and <b>Spring</b>. Including libraries such as <b>Bootstrap</b> and frameworks like <b>Angular</b>. Within the Spring ecosystem, we worked with <b>Thymeleaf</b> for templating, <b>JPA/Hibernate</b> for data persistence, <b>Lombok</b> to reduce boilerplate code, and <b>Spring Boot Devtools</b> to speed up the development process.",
                 "image": "img/exp/development.png"
             },
             {
