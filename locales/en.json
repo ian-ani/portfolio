@@ -26,7 +26,8 @@
             "Web",
             "GUI",
             "CLI",
-            "Data"
+            "Data",
+            "Game"
         ],
         "cards": [
             [
@@ -72,7 +73,7 @@
                 {
                     "image": "img/projects/fishtank.png",
                     "title": "Aquarium on Scratch",
-                    "category": ["All"],
+                    "category": ["All", "Game"],
                     "description": "Aquarium made on <b>Scratch</b> for CS50.",
                     "tech": [
                         {"title": "Scratch", 
@@ -240,6 +241,36 @@
 
                     ],
                     "source": "https://github.com/ian-ani/Zampa"
+                }
+            ],
+            [
+                {
+                    "image": "img/projects/elric.png",
+                    "title": "Elric",
+                    "category": ["All", "Juego"],
+                    "description": "Game for the <a href='https://itch.io/jam/cga-game-jam-2026'>CGA Game Jam 2026</a>. It only works on DOS.",
+                    "tech": [
+                        {"title": "Turbo Pascal",
+                        "image": "img/tech/backend/pascal.svg"}
+                    ],
+                    "source": "https://github.com/ian-ani/ELRIC"
+                }
+            ],
+                        [
+                {
+                    "image": "img/projects/contrastwords.png",
+                    "title": "Contrast Words",
+                    "category": ["All", "CLI", "Juego"],
+                    "description": "Game about antonyms for the <a href='https://itch.io/jam/jam-for-all-basic-dialects-7'>Jam for All BASIC Dialects (#7)</a>.",
+                    "tech": [
+                        {"title": "Python",
+                        "image": "img/tech/backend/Python.svg"},
+                        {"title": "C", 
+                        "image": "img/tech/backend/C.svg"},
+                        {"title": "FreeBASIC", 
+                        "image": "img/tech/backend/freebasic.svg"}
+                    ],
+                    "source": "https://github.com/ian-ani/ContrastWords"
                 }
             ]
         ]

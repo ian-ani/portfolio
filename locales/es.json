@@ -26,7 +26,8 @@
             "Web",
             "GUI",
             "CLI",
-            "Datos"
+            "Datos",
+            "Juego"
         ],
         "cards": [
             [
@@ -72,7 +73,7 @@
                 {
                     "image": "img/projects/fishtank.png",
                     "title": "Acuario en Scratch",
-                    "category": ["Todas"],
+                    "category": ["Todas", "Juego"],
                     "description": "Acuario en <b>Scratch</b> para el curso de CS50.",
                     "tech": [
                         {"title": "Scratch", 
@@ -237,9 +238,38 @@
                         "image": "img/tech/backend/Spring.svg"},
                         {"title": "Java", 
                         "image": "img/tech/backend/Java.svg"}
-
                     ],
                     "source": "https://github.com/ian-ani/Zampa"
+                }
+            ],
+            [
+                {
+                    "image": "img/projects/elric.png",
+                    "title": "Elric",
+                    "category": ["Todas", "Juego"],
+                    "description": "Videojuego para la <a href='https://itch.io/jam/cga-game-jam-2026'>CGA Game Jam 2026</a>. Solo funciona en DOS.",
+                    "tech": [
+                        {"title": "Turbo Pascal",
+                        "image": "img/tech/backend/pascal.svg"}
+                    ],
+                    "source": "https://github.com/ian-ani/ELRIC"
+                }
+            ],
+                        [
+                {
+                    "image": "img/projects/contrastwords.png",
+                    "title": "Contrast Words",
+                    "category": ["Todas", "CLI", "Juego"],
+                    "description": "Videojuego de antónimos para la <a href='https://itch.io/jam/jam-for-all-basic-dialects-7'>Jam for All BASIC Dialects (#7)</a>. Solo en inglés.",
+                    "tech": [
+                        {"title": "Python",
+                        "image": "img/tech/backend/Python.svg"},
+                        {"title": "C", 
+                        "image": "img/tech/backend/C.svg"},
+                        {"title": "FreeBASIC", 
+                        "image": "img/tech/backend/freebasic.svg"}
+                    ],
+                    "source": "https://github.com/ian-ani/ContrastWords"
                 }
             ]
         ]
